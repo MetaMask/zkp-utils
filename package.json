@@ -1,5 +1,5 @@
 {
-  "name": "@eyblockchain/zkp-utils",
+  "name": "@toruslabs/zkp-utils",
   "version": "1.0.0",
   "description": "A utility package for common math and formatting functions",
   "main": "index.js",
@@ -11,8 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EYBlockchain/zkp-utils.git",
-    "directory": "zkp-utils"
+    "url": "https://github.com/torusresearch/zkp-utils.git"
   },
   "contributors": [
     "Chaitanya Konda <CKonda@uk.ey.com>",
@@ -33,6 +32,6 @@
     "winston": "latest"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   }
 }
